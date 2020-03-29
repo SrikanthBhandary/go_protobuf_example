@@ -27,4 +27,6 @@ Example to generate the go output:
  How to add data?
  
     go run add_person.go addressbook.data       
+    
+ Second example handles the octate stream of protobuf int he server. Where client.py sends the binary content through octate stream, and the go server.py receives and prints the message.
 
